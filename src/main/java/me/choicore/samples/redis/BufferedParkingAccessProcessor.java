@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 @RequiredArgsConstructor
 @Component
-public class BufferedParkingAccessSignalProcessor {
+public class BufferedParkingAccessProcessor {
     private final StringRedisTemplate stringRedisTemplate;
     private final ObjectMapper objectMapper = Jackson2ObjectMapperBuilder.json().build();
 
