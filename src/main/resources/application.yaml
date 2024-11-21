@@ -1,0 +1,8 @@
+spring.application.name: notify-keyspace-events
+spring:
+  data:
+    redis:
+      client-name: notify-keyspace-events
+      client-type: lettuce
+      host: localhost
+      port: 6379
